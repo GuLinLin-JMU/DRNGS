@@ -1,4 +1,6 @@
-# A genomic selection method based on artificial intelligence. <br>
+# DRNGS [![](https://img.shields.io/badge/Issues-%2B-brightgreen.svg)](https://github.com/GuLinLin-JMU/DRNGS/issues) [![](https://img.shields.io/badge/Release-v1.1.0-important.svg)](https://github.com/GuLinLin-JMU/DRNGS/blob/master/DRNGS_0.1.0.tar.gz) [![](https://img.shields.io/badge/license-GPL3.0-blue.svg)](https://github.com/GuLinLin-JMU/DRNGS/blob/master/LICENSE)<br>
+## *[D](https://github.com/GuLinLin-JMU/DRNGS)eep [R](https://github.com/GuLinLin-JMU/DRNGS)esidual [N](https://github.com/GuLinLin-JMU/DRNGS)etwork [G](https://github.com/GuLinLin-JMU/DRNGS)enomic [S](https://github.com/GuLinLin-JMU/DRNGS)election*<br>
+
 ![](https://halobi.com/wp-content/uploads/2016/08/r_logo.png "R logo")
 ![](https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSvCvZWbl922EJkjahQ5gmTpcvsYr3ujQBpMdyX-YG99vGWfTAmfw "linux logo")
 ![](https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS3RzhXKSfXpWhWhvClckwi1Llj1j3HvjKpjvU8CQv4cje23TwS "windows logo")
@@ -76,7 +78,14 @@ train_model <- DRNGS(trainMat = trainMat,trainPheno = trainPheno, validMat = val
 predscores <- predict.DRNGS(GSModel = train_model,testMat = testMat,
               markerImage = markerImage )
 ```
-## How to access help
+## Genomic Best Linear Unbiased Prediction <br>
+```bash
+$ Rscript Genomic_Best_Linear_Unbiased_Prediction.R phenotype.txt G_Matrix.txt 599 /DRNGS_out_path/
+```
+## How to access help <br>
 If users have any bugs or issues or any suggestions are available, feel free to contact:<br>
-Linlin Gu: linlin-gu@outlook.com <br>
-Prof. Ming Fang: fangming618@126.com<br>
+:yum: **Linlin Gu:** linlin-gu@outlook.com <br>
+:yum: **Prof. Ming Fang:** fangming618@126.com <br>
+
+## Citation <br>
+
